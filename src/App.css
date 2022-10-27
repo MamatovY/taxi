@@ -1,0 +1,65 @@
+.App {
+  color: #000;
+  font-size: calc(9px + 11 * (100vw / 1280));
+  font-weight: 100;
+  background: #efefef;
+  margin-bottom: 100px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: calc(24px + 16 * (100vw / 1280));
+}
+
+h2 {
+  font-weight: 500;
+  font-size: calc(20px + 12 * (100vw / 1280));
+}
+
+h3 {
+  font-weight: 500;
+  font-size: calc(17px + 9 * (100vw / 1280));
+}
+
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+
+
+@media (max-width: 767px) {
+  .App {
+    font-size: calc(9px + (11 + 11 * 0.7) * ((100vw - 320px) / 1280));
+  }
+
+  h1 {
+    font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+  }
+
+  h2 {
+    font-size: calc(20px + (12 + 12 * 0.7) * ((100vw - 320px) / 1280));
+  }
+
+  h3 {
+    font-size: calc(17px + (9 + 9 * 0.7) * ((100vw - 320px) / 1280));
+  }
+}

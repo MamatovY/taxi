@@ -1,0 +1,60 @@
+.feedback {
+    background-image: url('../../assets/images/form.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFF;
+    text-align: center;
+    margin-top: 150px;
+    padding: 15% 10px;
+    position: relative;
+    /* transform: skewY(-3deg); */
+}
+
+
+
+.feedbackMain {
+    margin-top: 50px;
+}
+
+.feedbackMain form {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    gap: 20px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #454545;
+}
+
+.feedbackMain form input {
+    color: #FFF;
+    max-width: 100px;
+    border-radius: 10px;
+    padding: 3px 10px;
+
+}
+
+.feedbackMain form .headerBtn {
+    margin-left: 50px;
+}
+
+.feedback h1 {
+    margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+
+    .feedbackMain form {
+        width: 200px;
+        padding: 20px 0;
+        grid-template-columns: auto;
+    }
+
+    .feedbackMain form .headerBtn {
+        margin-left: 0;
+    }
+
+}

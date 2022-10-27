@@ -1,0 +1,72 @@
+.TopHeader {
+    background: #141517;
+    color: #FFF;
+
+}
+
+.TopHeader .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.TopHeader a {
+    color: #FFF;
+}
+
+
+.headerNav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerNav a:hover {
+    text-decoration: underline;
+}
+
+.headerNav div {
+    margin: auto;
+}
+
+.menu {
+    display: none;
+}
+
+
+
+@media (max-width: 767px) {
+    .headerNav {
+        display: none;
+    }
+
+    .menu {
+        z-index: 10;
+        display: block;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+    }
+
+    .headerNav.active {
+        z-index: 10;
+        display: block;
+        height: 100%;
+        right: 0;
+        top: 0;
+        position: fixed;
+        margin: 0;
+        width: 55%;
+        background: rgb(97, 97, 97);
+    }
+
+    .headerNav.active div {
+        margin-top: 50px;
+    }
+
+
+
+
+}
