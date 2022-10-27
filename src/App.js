@@ -18,10 +18,6 @@ function App() {
       <WhatsTel />
       <Work />
       <Review />
-
-
-
-
     </div>
   );
 }
