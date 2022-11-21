@@ -60,10 +60,10 @@
 }
 
 .popupMain {
+    width: 250px;
+    margin: 150px auto 0 auto;
     background: white;
-    position: absolute;
-    top: 30%;
-    left: calc((100vw / 2) - 180px);
+    position: relative;
     padding: 40px;
     border-radius: 10px;
     text-align: center;
@@ -120,5 +120,9 @@
 @media (max-width: 357px) {
     .App {
         color: #000;
+    }
+
+    .popupMain {
+        width: 200px;
     }
 }
