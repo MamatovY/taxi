@@ -11,7 +11,7 @@ const WhatsTel = () => {
                     </h1>
 
                     <div className="whatsBtns">
-                        <a href='https://wa.me/+996550360636' className="headerBtn">Написать в WhatsApp</a>
+                        <a href='https://wa.me/+996501261728' className="headerBtn">Написать в WhatsApp</a>
                         <a href='https://t.me/mamatovy' className="headerBtn">Написать в Telegram</a>
                     </div>
                 </div>
